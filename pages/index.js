@@ -25,6 +25,8 @@ async function findMatchingCities(temp) {
 
     // Then check if the given temp matches the temp of the city
     // If it does, add it to the array
+
+    // For testing purposes, using an unchanging number (elevation) rather than current_weather.temperature
     weatherData.elevation == temp && matchingCities.push(cityName);
   }
 
